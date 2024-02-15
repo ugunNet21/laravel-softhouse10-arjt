@@ -20,6 +20,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Screenshoot
+![image](https://github.com/ugunNet21/laravel-softhouse10-arjt/assets/45864165/d566e9ea-9e31-4b18-87ce-d92eb837fe48)
+![image](https://github.com/ugunNet21/laravel-softhouse10-arjt/assets/45864165/a8368f71-1246-463a-828f-b826cdbcc3a6)
+![image](https://github.com/ugunNet21/laravel-softhouse10-arjt/assets/45864165/4fc1ffbc-7c0a-4c54-8a36-11251caf52c4)
 
 ## Learning Laravel
 
