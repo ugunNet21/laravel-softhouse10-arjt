@@ -1,17 +1,9 @@
 <?php
 
+use App\Http\Controllers\Admin\DashboadController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\SignUpController;
 use Illuminate\Support\Facades\Route;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');
@@ -26,3 +18,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/home', [DashboadController::class, 'index']);
+Route::get('/signin', [LoginController::class, 'index']);
+Route::get('/sign-up', [SignUpController::class, 'index']);
